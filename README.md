@@ -2,6 +2,9 @@
 
 این پروژه امکان تحلیل سفارشات اسنپ را فراهم می‌کند و داشبوردی زیبا برای نمایش نتایج ارائه می‌دهد.
 
+## نمای داشبورد
+![داشبورد تحلیلی سفارشات اسنپ](dashboard-screenshot.png)
+
 ## ویژگی‌ها
 
 - دریافت خودکار تمام صفحات سفارش از API اسنپ
@@ -70,11 +73,17 @@ http://localhost:3000
 4. **نمودار ماهانه**: روند هزینه در طول زمان
 5. **جداول تفصیلی**: جزئیات کامل هزینه‌ها با امکان مشاهده درصدها
 
+### نمونه خروجی داشبورد
+![نمونه خروجی داشبورد](dashboard-screenshot.png)
+
 ## English Instructions / راهنمای انگلیسی
 
 # Snapp Orders Analysis Dashboard
 
 This project analyzes Snapp orders and provides a beautiful dashboard to visualize the results.
+
+## Dashboard View
+![Snapp Orders Analysis Dashboard](dashboard-screenshot.png)
 
 ## Features
 

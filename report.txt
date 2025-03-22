@@ -1,0 +1,137 @@
+=============================================
+           SNAPP ORDERS ANALYSIS REPORT           
+=============================================
+
+Total Pages: 17
+Total Orders: 312
+Date Range: October 2, 2023 to March 21, 2025
+
+💰 Total Spending: 1,747,673,890 Rials
+💰 Total Spending: 174,767,389 Tomans
+
+=============================================
+           SPENDING BY CATEGORY           
+=============================================
+
+Fashion & Clothing: 656,105,000 Rials (37.5%)
+Restaurant: 318,147,900 Rials (18.2%)
+Fruit: 181,031,430 Rials (10.4%)
+Home & Kitchen: 112,863,000 Rials (6.5%)
+Digital: 103,566,000 Rials (5.9%)
+Juice & Ice Cream: 96,798,630 Rials (5.5%)
+Snapp: 80,520,000 Rials (4.6%)
+Hypermarket: 74,698,430 Rials (4.3%)
+Beauty & Health: 33,913,000 Rials (1.9%)
+Bakery: 29,556,500 Rials (1.7%)
+Tools & Auto, Industrial Equipment: 22,204,000 Rials (1.3%)
+Protein: 21,120,000 Rials (1.2%)
+Sweets: 8,960,500 Rials (0.5%)
+Dairy: 3,547,500 Rials (0.2%)
+Cafe: 2,872,000 Rials (0.2%)
+Snapp Eco Plus: 1,770,000 Rials (0.1%)
+
+=============================================
+           SPENDING BY SERVICE TYPE           
+=============================================
+
+food: 662,034,460 Rials (37.9%)
+  Categories: Bakery, Restaurant, Fruit, Juice & Ice Cream, Cafe, Sweets, Dairy, Protein
+
+shop: 928,651,000 Rials (53.1%)
+  Categories: Home & Kitchen, Beauty & Health, Digital, Tools & Auto, Industrial Equipment, Fashion & Clothing
+
+cab: 82,290,000 Rials (4.7%)
+  Categories: Snapp, Snapp Eco Plus
+
+market: 74,698,430 Rials (4.3%)
+  Categories: Hypermarket
+
+=============================================
+           MONTHLY ANALYSIS           
+=============================================
+
+October 2023: 14,967,980 Rials
+  - Restaurant: 8,662,980 Rials (57.9%)
+  - Fruit: 3,770,000 Rials (25.2%)
+  - Sweets: 2,535,000 Rials (16.9%)
+
+November 2023: 1,720,000 Rials
+  - Bakery: 1,720,000 Rials (100.0%)
+
+December 2023: 4,223,360 Rials
+  - Restaurant: 4,223,360 Rials (100.0%)
+
+January 2024: 32,703,430 Rials
+  - Restaurant: 20,971,480 Rials (64.1%)
+  - Fruit: 10,725,950 Rials (32.8%)
+  - Bakery: 1,006,000 Rials (3.1%)
+
+October 2024: 52,212,180 Rials
+  - Fruit: 16,962,500 Rials (32.5%)
+  - Restaurant: 16,960,100 Rials (32.5%)
+  - Juice & Ice Cream: 11,987,580 Rials (23.0%)
+
+November 2024: 54,770,760 Rials
+  - Restaurant: 18,048,380 Rials (33.0%)
+  - Fruit: 14,166,000 Rials (25.9%)
+  - Juice & Ice Cream: 13,956,380 Rials (25.5%)
+
+December 2024: 99,627,080 Rials
+  - Restaurant: 38,981,520 Rials (39.1%)
+  - Hypermarket: 26,290,680 Rials (26.4%)
+  - Snapp: 14,390,000 Rials (14.4%)
+
+February 2024: 14,610,250 Rials
+  - Restaurant: 7,131,970 Rials (48.8%)
+  - Fruit: 4,325,780 Rials (29.6%)
+  - Sweets: 1,545,000 Rials (10.6%)
+
+March 2024: 32,435,720 Rials
+  - Restaurant: 19,516,320 Rials (60.2%)
+  - Fruit: 12,919,400 Rials (39.8%)
+
+April 2024: 104,321,940 Rials
+  - Fashion & Clothing: 96,680,000 Rials (92.7%)
+  - Restaurant: 3,863,190 Rials (3.7%)
+  - Fruit: 3,778,750 Rials (3.6%)
+
+May 2024: 93,259,510 Rials
+  - Fruit: 26,893,500 Rials (28.8%)
+  - Fashion & Clothing: 23,900,000 Rials (25.6%)
+  - Protein: 21,120,000 Rials (22.6%)
+
+June 2024: 28,261,230 Rials
+  - Restaurant: 17,570,230 Rials (62.2%)
+  - Fruit: 9,308,000 Rials (32.9%)
+  - Bakery: 1,383,000 Rials (4.9%)
+
+July 2024: 71,937,560 Rials
+  - Restaurant: 26,106,660 Rials (36.3%)
+  - Beauty & Health: 17,344,000 Rials (24.1%)
+  - Fruit: 14,462,900 Rials (20.1%)
+
+August 2024: 657,659,390 Rials
+  - Fashion & Clothing: 535,525,000 Rials (81.4%)
+  - Digital: 79,949,000 Rials (12.2%)
+  - Juice & Ice Cream: 34,597,510 Rials (5.3%)
+
+September 2024: 95,368,190 Rials
+  - Digital: 22,204,000 Rials (23.3%)
+  - Tools & Auto, Industrial Equipment: 22,204,000 Rials (23.3%)
+  - Juice & Ice Cream: 20,034,580 Rials (21.0%)
+
+January 2025: 114,790,450 Rials
+  - Restaurant: 45,245,600 Rials (39.4%)
+  - Hypermarket: 24,882,350 Rials (21.7%)
+  - Fruit: 20,619,500 Rials (18.0%)
+
+February 2025: 121,861,840 Rials
+  - Restaurant: 42,048,440 Rials (34.5%)
+  - Snapp: 34,300,000 Rials (28.1%)
+  - Hypermarket: 23,525,400 Rials (19.3%)
+
+March 2025: 152,943,020 Rials
+  - Home & Kitchen: 112,863,000 Rials (73.8%)
+  - Restaurant: 15,250,920 Rials (10.0%)
+  - Snapp: 10,870,000 Rials (7.1%)
+

@@ -1,0 +1,546 @@
+Request URL:
+https://app.snapp.taxi/api/superapp/ordercenter/user/v1/orders?category=all&page=1
+Request Method:
+POST
+Status Code:
+200 OK
+Remote Address:
+185.143.234.120:443
+Referrer Policy:
+strict-origin-when-cross-origin
+content-encoding:
+gzip
+content-type:
+application/json; charset=utf-8
+date:
+Sat, 22 Mar 2025 02:24:18 GMT
+server:
+ArvanCloud
+server-timing:
+total;dur=66
+vary:
+Accept-Encoding
+vary:
+Accept-Encoding
+x-envoy-decorator-operation:
+app.snapp.taxi
+x-envoy-upstream-service-time:
+54
+x-request-id:
+1bc33c255be97e7dae980a181fff58cd
+x-sid:
+2049
+x-xss-protection:
+1; mode=block
+:authority:
+app.snapp.taxi
+:method:
+POST
+:path:
+/api/superapp/ordercenter/user/v1/orders?category=all&page=1
+:scheme:
+https
+accept:
+*/*
+accept-encoding:
+gzip, deflate, br, zstd
+accept-language:
+en-US,en;q=0.9,fa;q=0.8,ar;q=0.7
+app-version:
+pwa
+authorization:
+Bearer eyJhbGciOiJFUzI1NiIsImtpZCI6IjQ1NFFSWTV0V1N6NDlrdzJaT05JQk5vVURYUGYyQlVWWGt4SzZlUHlnakUiLCJ0eXAiOiJKV1QifQ.eyJhdWQiOlsicGFzc2VuZ2VyIl0sImV4cCI6MTc0MzgxOTc5MSwiaWF0IjoxNzQyNjEwMTkxLCJpc3MiOjEsImp0aSI6Im1jeWhhZ2JFRWZDaFppWld6MHlyNHRxVUJ4L1pUMGJFalVLa0pNS3ZOWUkiLCJxYSI6ZmFsc2UsInNpZCI6IjJwRlU2YjlBNVdWd0JyRXd3ZjBZazBCVjVaNyIsInN1YiI6ImJ5djg1UlJneDkxNTdvNCJ9.KwT5zt3oKg6FtbaGCu2qj_NIZSVBjHc4SSKj4IWj_nyPxlrdV6BSz_rc1mgiNtORLOlr8cs8scMdYiunSZyRgw
+cache-control:
+no-cache
+content-length:
+20
+content-type:
+application/json
+cookie:
+_ga=GA1.1.1661297966.1732361114; _ym_uid=1732361115162159422; _ym_d=1732361115; _clck=1yec86c%7C2%7Cfrd%7C0%7C1788; _ym_isad=2; cookiesession1=678B28699011B6CE3C1CF9DD56425C17; _ga_Y4QV007ERR=GS1.1.1742610191.6.1.1742610253.58.0.0
+locale:
+fa-IR
+origin:
+https://app.snapp.taxi
+pragma:
+no-cache
+priority:
+u=1, i
+referer:
+https://app.snapp.taxi/?superapp_service=orders
+sec-fetch-dest:
+empty
+sec-fetch-mode:
+cors
+sec-fetch-site:
+same-origin
+user-agent:
+Mozilla/5.0 (iPhone; CPU iPhone OS 16_6 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/16.6 Mobile/15E148 Safari/604.1
+x-app-name:
+passenger-pwa
+x-app-version:
+v18.18.2
+
+{
+    "orders": [
+        {
+            "venture_title": "نانوایی",
+            "venture_icon": "https://jek.snapp.ir/ordercenter/assets/images/cards/Snappfood.png",
+            "slug": "food",
+            "track_url": "snapp://open/services/6?append_app_version=true\u0026append_back_gesture_enabled=true\u0026append_locale=true\u0026append_location=true\u0026append_os_version=true\u0026append_token_type=0\u0026append_top_bar_back_hidden=false\u0026append_top_bar_hidden=false\u0026append_top_bar_home_hidden=true\u0026append_app_version=true\u0026append_back_gesture_enabled=true\u0026append_locale=true\u0026append_location=true\u0026append_os_version=true\u0026append_token_type=0\u0026append_top_bar_back_hidden=false\u0026append_top_bar_hidden=false\u0026append_top_bar_home_hidden=true\u0026url=https://superapp.snappfood.ir/orderCenter/5dn98y91?token=FD.hMd0Q3JN%3AXc3KTrksBsXSO9ERlWXl-nBr1PTWIX15NfxA3lmQZUYsfge9X9_ZIqUcc45_3s-w2c1v-aTcvmeB0g",
+            "track_id": "food_tracking_5dn98y91",
+            "price": 1088000,
+            "status": 1,
+            "date": 1742557610,
+            "card_type": 2,
+            "payload": {
+                "order_id": "5dn98y91",
+                "data": {
+                    "address": "بالاتر از بیمارستان ایرانمهر ؛کوچه میری ؛ بن بست پروین پلاک ۹ طبقه دو زنگ دو کوچه میری ؛ بن بست پروین پلاک 9 طبقه دو زنگ دو",
+                    "title": "نانوایی شریعتی",
+                    "order_id": "5dn98y91"
+                }
+            }
+        },
+        {
+            "venture_title": "خانه و آشپزخانه",
+            "venture_icon": "https://jek.snapp.ir/ordercenter/assets/images/cards/Snappshop.png",
+            "slug": "shop",
+            "track_url": "snapp://open/services/17?append_app_version=true\u0026append_back_gesture_enabled=true\u0026append_locale=true\u0026append_location=true\u0026append_os_version=true\u0026append_token_type=1\u0026append_top_bar_back_hidden=false\u0026append_top_bar_hidden=true\u0026append_top_bar_home_hidden=false\u0026append_app_version=true\u0026append_back_gesture_enabled=true\u0026append_locale=true\u0026append_location=true\u0026append_os_version=true\u0026append_token_type=1\u0026append_top_bar_back_hidden=false\u0026append_top_bar_hidden=true\u0026append_top_bar_home_hidden=false\u0026url=https://snappshop.ir/profile/order/kRebPl?token=SP.Z25yO5s-%3AC3t2VP0qYb1m98gxV7AAqpHRwEt0oil0emzrB7Y4UcgokczM3psSbU14Jv3AU9R5C-nh0k6GIwE-4w\u0026utm_campaign=snapp-order\u0026utm_medium=snapp-superapp",
+            "track_id": "shop_tracking_kRebPl",
+            "price": 24513000,
+            "status": 1,
+            "date": 1742376833,
+            "card_type": 2,
+            "payload": {
+                "order_id": "kRebPl",
+                "data": {
+                    "address": "بالاتر از بیمارستان ایرانمهر ؛کوچه میری ؛ بن بست پروین پلاک ۹ طبقه دو زنگ دو کوچه میری ؛ بن بست پروین پلاک 9 طبقه دو زنگ دو",
+                    "title": "اثاث مارکت",
+                    "order_id": "kRebPl"
+                }
+            }
+        },
+        {
+            "venture_title": "خانه و آشپزخانه",
+            "venture_icon": "https://jek.snapp.ir/ordercenter/assets/images/cards/Snappshop.png",
+            "slug": "shop",
+            "track_url": "snapp://open/services/17?append_app_version=true\u0026append_back_gesture_enabled=true\u0026append_locale=true\u0026append_location=true\u0026append_os_version=true\u0026append_token_type=1\u0026append_top_bar_back_hidden=false\u0026append_top_bar_hidden=true\u0026append_top_bar_home_hidden=false\u0026append_app_version=true\u0026append_back_gesture_enabled=true\u0026append_locale=true\u0026append_location=true\u0026append_os_version=true\u0026append_token_type=1\u0026append_top_bar_back_hidden=false\u0026append_top_bar_hidden=true\u0026append_top_bar_home_hidden=false\u0026url=https://snappshop.ir/profile/order/9E4Md9?token=SP.Z25yO5s-%3AC3t2VP0qYb1m98gxV7AAqpHRwEt0oil0emzrB7Y4UcgokczM3psSbU14Jv3AU9R5C-nh0k6GIwE-4w\u0026utm_campaign=snapp-order\u0026utm_medium=snapp-superapp",
+            "track_id": "shop_tracking_9E4Md9",
+            "price": 88350000,
+            "status": 1,
+            "date": 1742324463,
+            "card_type": 2,
+            "payload": {
+                "order_id": "9E4Md9",
+                "data": {
+                    "address": "بالاتر از بیمارستان ایرانمهر ؛کوچه میری ؛ بن بست پروین پلاک ۹ طبقه دو زنگ دو کوچه میری ؛ بن بست پروین پلاک 9 طبقه دو زنگ دو",
+                    "title": "کالای خواب شابو",
+                    "order_id": "9E4Md9"
+                }
+            }
+        },
+        {
+            "venture_title": "رستوران",
+            "venture_icon": "https://jek.snapp.ir/ordercenter/assets/images/cards/Snappfood.png",
+            "slug": "food",
+            "track_url": "snapp://open/services/6?append_app_version=true\u0026append_back_gesture_enabled=true\u0026append_locale=true\u0026append_location=true\u0026append_os_version=true\u0026append_token_type=0\u0026append_top_bar_back_hidden=false\u0026append_top_bar_hidden=false\u0026append_top_bar_home_hidden=true\u0026append_app_version=true\u0026append_back_gesture_enabled=true\u0026append_locale=true\u0026append_location=true\u0026append_os_version=true\u0026append_token_type=0\u0026append_top_bar_back_hidden=false\u0026append_top_bar_hidden=false\u0026append_top_bar_home_hidden=true\u0026url=https://superapp.snappfood.ir/orderCenter/xvx8ozex?token=FD.hMd0Q3JN%3AXc3KTrksBsXSO9ERlWXl-nBr1PTWIX15NfxA3lmQZUYsfge9X9_ZIqUcc45_3s-w2c1v-aTcvmeB0g",
+            "track_id": "food_tracking_xvx8ozex",
+            "price": 4007800,
+            "status": 1,
+            "date": 1742321592,
+            "card_type": 2,
+            "payload": {
+                "order_id": "xvx8ozex",
+                "data": {
+                    "address": "بالاتر از بیمارستان ایرانمهر ؛کوچه میری ؛ بن بست پروین پلاک ۹ طبقه دو زنگ دو کوچه میری ؛ بن بست پروین پلاک 9 طبقه دو زنگ دو",
+                    "title": "چیکن فامیلی (ظفر)",
+                    "order_id": "xvx8ozex"
+                }
+            }
+        },
+        {
+            "venture_title": "میوه",
+            "venture_icon": "https://jek.snapp.ir/ordercenter/assets/images/cards/Snappfood.png",
+            "slug": "food",
+            "track_url": "snapp://open/services/6?append_app_version=true\u0026append_back_gesture_enabled=true\u0026append_locale=true\u0026append_location=true\u0026append_os_version=true\u0026append_token_type=0\u0026append_top_bar_back_hidden=false\u0026append_top_bar_hidden=false\u0026append_top_bar_home_hidden=true\u0026append_app_version=true\u0026append_back_gesture_enabled=true\u0026append_locale=true\u0026append_location=true\u0026append_os_version=true\u0026append_token_type=0\u0026append_top_bar_back_hidden=false\u0026append_top_bar_hidden=false\u0026append_top_bar_home_hidden=true\u0026url=https://superapp.snappfood.ir/orderCenter/6xw8z0w1?token=FD.hMd0Q3JN%3AXc3KTrksBsXSO9ERlWXl-nBr1PTWIX15NfxA3lmQZUYsfge9X9_ZIqUcc45_3s-w2c1v-aTcvmeB0g",
+            "track_id": "food_tracking_6xw8z0w1",
+            "price": 8959100,
+            "status": 1,
+            "date": 1742310163,
+            "card_type": 2,
+            "payload": {
+                "order_id": "6xw8z0w1",
+                "data": {
+                    "address": "بالاتر از بیمارستان ایرانمهر ؛کوچه میری ؛ بن بست پروین پلاک ۹ طبقه دو زنگ دو کوچه میری ؛ بن بست پروین پلاک 9 طبقه دو زنگ دو",
+                    "title": "هایپر میوه زرگنده",
+                    "order_id": "6xw8z0w1"
+                }
+            }
+        },
+        {
+            "venture_title": "رستوران",
+            "venture_icon": "https://jek.snapp.ir/ordercenter/assets/images/cards/Snappfood.png",
+            "slug": "food",
+            "track_url": "snapp://open/services/6?append_app_version=true\u0026append_back_gesture_enabled=true\u0026append_locale=true\u0026append_location=true\u0026append_os_version=true\u0026append_token_type=0\u0026append_top_bar_back_hidden=false\u0026append_top_bar_hidden=false\u0026append_top_bar_home_hidden=true\u0026append_app_version=true\u0026append_back_gesture_enabled=true\u0026append_locale=true\u0026append_location=true\u0026append_os_version=true\u0026append_token_type=0\u0026append_top_bar_back_hidden=false\u0026append_top_bar_hidden=false\u0026append_top_bar_home_hidden=true\u0026url=https://superapp.snappfood.ir/orderCenter/voxz3g70?token=FD.hMd0Q3JN%3AXc3KTrksBsXSO9ERlWXl-nBr1PTWIX15NfxA3lmQZUYsfge9X9_ZIqUcc45_3s-w2c1v-aTcvmeB0g",
+            "track_id": "food_tracking_voxz3g70",
+            "price": 2707500,
+            "status": 1,
+            "date": 1742305232,
+            "card_type": 2,
+            "payload": {
+                "order_id": "voxz3g70",
+                "data": {
+                    "address": "بالاتر از بیمارستان ایرانمهر ؛کوچه میری ؛ بن بست پروین پلاک ۹ طبقه دو زنگ دو کوچه میری ؛ بن بست پروین پلاک 9 طبقه دو زنگ دو",
+                    "title": "آشکده و حلیم چاشنو (چاشنی سابق)",
+                    "order_id": "voxz3g70"
+                }
+            }
+        },
+        {
+            "venture_title": "اسنپ",
+            "venture_icon": "https://jek.snapp.ir/ordercenter/assets/images/cards/Snapp.png",
+            "slug": "cab",
+            "track_url": "snapp://open/services/1?snapp_id=SNP-250318-79266-5440\u0026type=ride_history\u0026append_app_version=false\u0026append_back_gesture_enabled=false\u0026append_locale=false\u0026append_location=false\u0026append_os_version=false\u0026append_token_type=0\u0026append_top_bar_back_hidden=false\u0026append_top_bar_hidden=false\u0026append_top_bar_home_hidden=false\u0026append_app_version=false\u0026append_back_gesture_enabled=false\u0026append_locale=false\u0026append_location=false\u0026append_os_version=false\u0026append_token_type=0\u0026append_top_bar_back_hidden=false\u0026append_top_bar_hidden=false\u0026append_top_bar_home_hidden=false\u0026url=https://app.snapp.taxi/ride-detail/SNP-250318-79266-5440",
+            "track_id": "cab_tracking_SNP-250318-79266-5440",
+            "price": 2300000,
+            "status": 1,
+            "date": 1742296579,
+            "card_type": 1,
+            "payload": {
+                "order_id": "SNP-250318-79266-5440",
+                "data": {
+                    "source": "تهران، سنائی، ولی عصر، آیت الله مطهری بعد از میرزای شیرازی، تهران پخت",
+                    "destination": "تهران، جردن - پارک ملت، بزرگراه آیت الله هاشمی رفسنجانی، بوستان ملت",
+                    "request_id": "SNP-250318-79266-5440"
+                }
+            },
+            "reorder": true,
+            "reorder_text": "تکرارِ سفر"
+        },
+        {
+            "venture_title": "اسنپ",
+            "venture_icon": "https://jek.snapp.ir/ordercenter/assets/images/cards/Snapp.png",
+            "slug": "cab",
+            "track_url": "snapp://open/services/1?snapp_id=SNP-250318-79033-4744\u0026type=ride_history\u0026append_app_version=false\u0026append_back_gesture_enabled=false\u0026append_locale=false\u0026append_location=false\u0026append_os_version=false\u0026append_token_type=0\u0026append_top_bar_back_hidden=false\u0026append_top_bar_hidden=false\u0026append_top_bar_home_hidden=false\u0026append_app_version=false\u0026append_back_gesture_enabled=false\u0026append_locale=false\u0026append_location=false\u0026append_os_version=false\u0026append_token_type=0\u0026append_top_bar_back_hidden=false\u0026append_top_bar_hidden=false\u0026append_top_bar_home_hidden=false\u0026url=https://app.snapp.taxi/ride-detail/SNP-250318-79033-4744",
+            "track_id": "cab_tracking_SNP-250318-79033-4744",
+            "price": 2300000,
+            "status": 2,
+            "date": 1742296426,
+            "card_type": 1,
+            "payload": {
+                "order_id": "SNP-250318-79033-4744",
+                "data": {
+                    "source": "تهران، سنائی، ولی عصر، آیت الله مطهری بعد از میرزای شیرازی، تهران پخت",
+                    "destination": "تهران، جردن - پارک ملت، بزرگراه آیت الله هاشمی رفسنجانی، بوستان ملت",
+                    "request_id": "SNP-250318-79033-4744"
+                }
+            },
+            "reorder": true,
+            "reorder_text": "تکرارِ سفر"
+        },
+        {
+            "venture_title": "اسنپ",
+            "venture_icon": "https://jek.snapp.ir/ordercenter/assets/images/cards/Snapp.png",
+            "slug": "cab",
+            "track_url": "snapp://open/services/1?snapp_id=SNP-250318-78508-4719\u0026type=ride_history\u0026append_app_version=false\u0026append_back_gesture_enabled=false\u0026append_locale=false\u0026append_location=false\u0026append_os_version=false\u0026append_token_type=0\u0026append_top_bar_back_hidden=false\u0026append_top_bar_hidden=false\u0026append_top_bar_home_hidden=false\u0026append_app_version=false\u0026append_back_gesture_enabled=false\u0026append_locale=false\u0026append_location=false\u0026append_os_version=false\u0026append_token_type=0\u0026append_top_bar_back_hidden=false\u0026append_top_bar_hidden=false\u0026append_top_bar_home_hidden=false\u0026url=https://app.snapp.taxi/ride-detail/SNP-250318-78508-4719",
+            "track_id": "cab_tracking_SNP-250318-78508-4719",
+            "price": 870000,
+            "status": 1,
+            "date": 1742282870,
+            "card_type": 1,
+            "payload": {
+                "order_id": "SNP-250318-78508-4719",
+                "data": {
+                    "source": "تهران، جردن - پارک ملت، ولی عصر، اسفندیار، محمدعلی رحیمی بعد از چهرزای، گروه شرکت های ستاره",
+                    "destination": "تهران، شهرآرا - پاتریس، بزرگراه جلال آل احمد، حسین آرش مهر، کتاب فروشی شهرآرا",
+                    "request_id": "SNP-250318-78508-4719"
+                }
+            },
+            "reorder": true,
+            "reorder_text": "تکرارِ سفر"
+        },
+        {
+            "venture_title": "رستوران",
+            "venture_icon": "https://jek.snapp.ir/ordercenter/assets/images/cards/Snappfood.png",
+            "slug": "food",
+            "track_url": "snapp://open/services/6?append_app_version=true\u0026append_back_gesture_enabled=true\u0026append_locale=true\u0026append_location=true\u0026append_os_version=true\u0026append_token_type=0\u0026append_top_bar_back_hidden=false\u0026append_top_bar_hidden=false\u0026append_top_bar_home_hidden=true\u0026append_app_version=true\u0026append_back_gesture_enabled=true\u0026append_locale=true\u0026append_location=true\u0026append_os_version=true\u0026append_token_type=0\u0026append_top_bar_back_hidden=false\u0026append_top_bar_hidden=false\u0026append_top_bar_home_hidden=true\u0026url=https://superapp.snappfood.ir/orderCenter/w8zr9yj8?token=FD.hMd0Q3JN%3AXc3KTrksBsXSO9ERlWXl-nBr1PTWIX15NfxA3lmQZUYsfge9X9_ZIqUcc45_3s-w2c1v-aTcvmeB0g",
+            "track_id": "food_tracking_w8zr9yj8",
+            "price": 2707500,
+            "status": 1,
+            "date": 1742217723,
+            "card_type": 2,
+            "payload": {
+                "order_id": "w8zr9yj8",
+                "data": {
+                    "address": "بالاتر از بیمارستان ایرانمهر ؛کوچه میری ؛ بن بست پروین پلاک ۹ طبقه دو زنگ دو کوچه میری ؛ بن بست پروین پلاک 9 طبقه دو زنگ دو",
+                    "title": "آشکده و حلیم چاشنو (چاشنی سابق)",
+                    "order_id": "w8zr9yj8"
+                }
+            }
+        },
+        {
+            "venture_title": "نانوایی",
+            "venture_icon": "https://jek.snapp.ir/ordercenter/assets/images/cards/Snappfood.png",
+            "slug": "food",
+            "track_url": "snapp://open/services/6?append_app_version=true\u0026append_back_gesture_enabled=true\u0026append_locale=true\u0026append_location=true\u0026append_os_version=true\u0026append_token_type=0\u0026append_top_bar_back_hidden=false\u0026append_top_bar_hidden=false\u0026append_top_bar_home_hidden=true\u0026append_app_version=true\u0026append_back_gesture_enabled=true\u0026append_locale=true\u0026append_location=true\u0026append_os_version=true\u0026append_token_type=0\u0026append_top_bar_back_hidden=false\u0026append_top_bar_hidden=false\u0026append_top_bar_home_hidden=true\u0026url=https://superapp.snappfood.ir/orderCenter/oz2p0e5w?token=FD.hMd0Q3JN%3AXc3KTrksBsXSO9ERlWXl-nBr1PTWIX15NfxA3lmQZUYsfge9X9_ZIqUcc45_3s-w2c1v-aTcvmeB0g",
+            "track_id": "food_tracking_oz2p0e5w",
+            "price": 996000,
+            "status": 1,
+            "date": 1742217557,
+            "card_type": 2,
+            "payload": {
+                "order_id": "oz2p0e5w",
+                "data": {
+                    "address": "بالاتر از بیمارستان ایرانمهر ؛کوچه میری ؛ بن بست پروین پلاک ۹ طبقه دو زنگ دو کوچه میری ؛ بن بست پروین پلاک 9 طبقه دو زنگ دو",
+                    "title": "نان سنگکی دیدار (آزادپز)",
+                    "order_id": "oz2p0e5w"
+                }
+            }
+        },
+        {
+            "venture_title": "رستوران",
+            "venture_icon": "https://jek.snapp.ir/ordercenter/assets/images/cards/Snappfood.png",
+            "slug": "food",
+            "track_url": "snapp://open/services/6?append_app_version=true\u0026append_back_gesture_enabled=true\u0026append_locale=true\u0026append_location=true\u0026append_os_version=true\u0026append_token_type=0\u0026append_top_bar_back_hidden=false\u0026append_top_bar_hidden=false\u0026append_top_bar_home_hidden=true\u0026append_app_version=true\u0026append_back_gesture_enabled=true\u0026append_locale=true\u0026append_location=true\u0026append_os_version=true\u0026append_token_type=0\u0026append_top_bar_back_hidden=false\u0026append_top_bar_hidden=false\u0026append_top_bar_home_hidden=true\u0026url=https://superapp.snappfood.ir/orderCenter/eyej0eyp?token=FD.hMd0Q3JN%3AXc3KTrksBsXSO9ERlWXl-nBr1PTWIX15NfxA3lmQZUYsfge9X9_ZIqUcc45_3s-w2c1v-aTcvmeB0g",
+            "track_id": "food_tracking_eyej0eyp",
+            "price": 5828120,
+            "status": 1,
+            "date": 1742120914,
+            "card_type": 2,
+            "payload": {
+                "order_id": "eyej0eyp",
+                "data": {
+                    "address": "تهرانپارس شرقی، بزرگراه زین الدین، شادآلوئی، ارفاقی",
+                    "title": "چلوپز (سهروردی)",
+                    "order_id": "eyej0eyp"
+                }
+            }
+        },
+        {
+            "venture_title": "اسنپ",
+            "venture_icon": "https://jek.snapp.ir/ordercenter/assets/images/cards/Snapp.png",
+            "slug": "cab",
+            "track_url": "snapp://open/services/1?snapp_id=SNP-250309-57922-0984\u0026type=ride_history\u0026append_app_version=false\u0026append_back_gesture_enabled=false\u0026append_locale=false\u0026append_location=false\u0026append_os_version=false\u0026append_token_type=0\u0026append_top_bar_back_hidden=false\u0026append_top_bar_hidden=false\u0026append_top_bar_home_hidden=false\u0026append_app_version=false\u0026append_back_gesture_enabled=false\u0026append_locale=false\u0026append_location=false\u0026append_os_version=false\u0026append_token_type=0\u0026append_top_bar_back_hidden=false\u0026append_top_bar_hidden=false\u0026append_top_bar_home_hidden=false\u0026url=https://app.snapp.taxi/ride-detail/SNP-250309-57922-0984",
+            "track_id": "cab_tracking_SNP-250309-57922-0984",
+            "price": 1160000,
+            "status": 1,
+            "date": 1741502104,
+            "card_type": 1,
+            "payload": {
+                "order_id": "SNP-250309-57922-0984",
+                "data": {
+                    "source": "تهران، قلهک، دکتر علی شریعتی، کودکان غزه، پروین بعد از حسن میری، بیمارستان ایرانمهر",
+                    "destination": "تهران، سعادت آباد، بزرگراه آیت الله هاشمی رفسنجانی، ریاضی بخشایش، زند وکیلی شرقی تقاطع زند وکیلی غربی، بنیامین ترابر پارسیان",
+                    "request_id": "SNP-250309-57922-0984"
+                }
+            },
+            "reorder": true,
+            "reorder_text": "تکرارِ سفر"
+        },
+        {
+            "venture_title": "اسنپ",
+            "venture_icon": "https://jek.snapp.ir/ordercenter/assets/images/cards/Snapp.png",
+            "slug": "cab",
+            "track_url": "snapp://open/services/1?snapp_id=SNP-250307-55578-8156\u0026type=ride_history\u0026append_app_version=false\u0026append_back_gesture_enabled=false\u0026append_locale=false\u0026append_location=false\u0026append_os_version=false\u0026append_token_type=0\u0026append_top_bar_back_hidden=false\u0026append_top_bar_hidden=false\u0026append_top_bar_home_hidden=false\u0026append_app_version=false\u0026append_back_gesture_enabled=false\u0026append_locale=false\u0026append_location=false\u0026append_os_version=false\u0026append_token_type=0\u0026append_top_bar_back_hidden=false\u0026append_top_bar_hidden=false\u0026append_top_bar_home_hidden=false\u0026url=https://app.snapp.taxi/ride-detail/SNP-250307-55578-8156",
+            "track_id": "cab_tracking_SNP-250307-55578-8156",
+            "price": 1540000,
+            "status": 1,
+            "date": 1741370755,
+            "card_type": 1,
+            "payload": {
+                "order_id": "SNP-250307-55578-8156",
+                "data": {
+                    "source": "تهران، اباذر، بزرگراه آیت الله اشرفی اصفهانی، حمیدرضا شالی، سلمان قبل از نقی تاجیک",
+                    "destination": "تهران، قلهک، دکتر علی شریعتی، کودکان غزه، پروین",
+                    "request_id": "SNP-250307-55578-8156"
+                }
+            },
+            "reorder": true,
+            "reorder_text": "تکرارِ سفر"
+        },
+        {
+            "venture_title": "نانوایی",
+            "venture_icon": "https://jek.snapp.ir/ordercenter/assets/images/cards/Snappfood.png",
+            "slug": "food",
+            "track_url": "snapp://open/services/6?append_app_version=true\u0026append_back_gesture_enabled=true\u0026append_locale=true\u0026append_location=true\u0026append_os_version=true\u0026append_token_type=0\u0026append_top_bar_back_hidden=false\u0026append_top_bar_hidden=false\u0026append_top_bar_home_hidden=true\u0026append_app_version=true\u0026append_back_gesture_enabled=true\u0026append_locale=true\u0026append_location=true\u0026append_os_version=true\u0026append_token_type=0\u0026append_top_bar_back_hidden=false\u0026append_top_bar_hidden=false\u0026append_top_bar_home_hidden=true\u0026url=https://superapp.snappfood.ir/orderCenter/k06depnd?token=FD.hMd0Q3JN%3AXc3KTrksBsXSO9ERlWXl-nBr1PTWIX15NfxA3lmQZUYsfge9X9_ZIqUcc45_3s-w2c1v-aTcvmeB0g",
+            "track_id": "food_tracking_k06depnd",
+            "price": 996000,
+            "status": 1,
+            "date": 1741101462,
+            "card_type": 2,
+            "payload": {
+                "order_id": "k06depnd",
+                "data": {
+                    "address": "بالاتر از بیمارستان ایرانمهر ؛کوچه میری ؛ بن بست پروین پلاک ۹ طبقه دو زنگ دو کوچه میری ؛ بن بست پروین پلاک 9 طبقه دو زنگ دو",
+                    "title": "نان سنگکی دیدار (آزادپز)",
+                    "order_id": "k06depnd"
+                }
+            }
+        },
+        {
+            "venture_title": "نانوایی",
+            "venture_icon": "https://jek.snapp.ir/ordercenter/assets/images/cards/Snappfood.png",
+            "slug": "food",
+            "track_url": "snapp://open/services/6?append_app_version=true\u0026append_back_gesture_enabled=true\u0026append_locale=true\u0026append_location=true\u0026append_os_version=true\u0026append_token_type=0\u0026append_top_bar_back_hidden=false\u0026append_top_bar_hidden=false\u0026append_top_bar_home_hidden=true\u0026append_app_version=true\u0026append_back_gesture_enabled=true\u0026append_locale=true\u0026append_location=true\u0026append_os_version=true\u0026append_token_type=0\u0026append_top_bar_back_hidden=false\u0026append_top_bar_hidden=false\u0026append_top_bar_home_hidden=true\u0026url=https://superapp.snappfood.ir/orderCenter/zjyn216q?token=FD.hMd0Q3JN%3AXc3KTrksBsXSO9ERlWXl-nBr1PTWIX15NfxA3lmQZUYsfge9X9_ZIqUcc45_3s-w2c1v-aTcvmeB0g",
+            "track_id": "food_tracking_zjyn216q",
+            "price": 1920000,
+            "status": 1,
+            "date": 1741101378,
+            "card_type": 2,
+            "payload": {
+                "order_id": "zjyn216q",
+                "data": {
+                    "address": "بالاتر از بیمارستان ایرانمهر ؛کوچه میری ؛ بن بست پروین پلاک ۹ طبقه دو زنگ دو کوچه میری ؛ بن بست پروین پلاک 9 طبقه دو زنگ دو",
+                    "title": "نانوایی تافتون سروی",
+                    "order_id": "zjyn216q"
+                }
+            }
+        },
+        {
+            "venture_title": "اسنپ",
+            "venture_icon": "https://jek.snapp.ir/ordercenter/assets/images/cards/Snapp.png",
+            "slug": "cab",
+            "track_url": "snapp://open/services/1?snapp_id=SNP-250304-42803-4413\u0026type=ride_history\u0026append_app_version=false\u0026append_back_gesture_enabled=false\u0026append_locale=false\u0026append_location=false\u0026append_os_version=false\u0026append_token_type=0\u0026append_top_bar_back_hidden=false\u0026append_top_bar_hidden=false\u0026append_top_bar_home_hidden=false\u0026append_app_version=false\u0026append_back_gesture_enabled=false\u0026append_locale=false\u0026append_location=false\u0026append_os_version=false\u0026append_token_type=0\u0026append_top_bar_back_hidden=false\u0026append_top_bar_hidden=false\u0026append_top_bar_home_hidden=false\u0026url=https://app.snapp.taxi/ride-detail/SNP-250304-42803-4413",
+            "track_id": "cab_tracking_SNP-250304-42803-4413",
+            "price": 650000,
+            "status": 1,
+            "date": 1741069565,
+            "card_type": 1,
+            "payload": {
+                "order_id": "SNP-250304-42803-4413",
+                "data": {
+                    "source": "تهران، قلهک، دکتر علی شریعتی، کودکان غزه، پروین بعد از حسن میری، بیمارستان ایرانمهر",
+                    "destination": "تهران، سعادت آباد، بزرگراه آیت الله هاشمی رفسنجانی، ریاضی بخشایش، زند وکیلی شرقی تقاطع زند وکیلی غربی، بنیامین ترابر پارسیان",
+                    "request_id": "SNP-250304-42803-4413"
+                }
+            },
+            "reorder": true,
+            "reorder_text": "تکرارِ سفر"
+        },
+        {
+            "venture_title": "اسنپ",
+            "venture_icon": "https://jek.snapp.ir/ordercenter/assets/images/cards/Snapp.png",
+            "slug": "cab",
+            "track_url": "snapp://open/services/1?snapp_id=SNP-250303-41247-1955\u0026type=ride_history\u0026append_app_version=false\u0026append_back_gesture_enabled=false\u0026append_locale=false\u0026append_location=false\u0026append_os_version=false\u0026append_token_type=0\u0026append_top_bar_back_hidden=false\u0026append_top_bar_hidden=false\u0026append_top_bar_home_hidden=false\u0026append_app_version=false\u0026append_back_gesture_enabled=false\u0026append_locale=false\u0026append_location=false\u0026append_os_version=false\u0026append_token_type=0\u0026append_top_bar_back_hidden=false\u0026append_top_bar_hidden=false\u0026append_top_bar_home_hidden=false\u0026url=https://app.snapp.taxi/ride-detail/SNP-250303-41247-1955",
+            "track_id": "cab_tracking_SNP-250303-41247-1955",
+            "price": 940000,
+            "status": 1,
+            "date": 1740981428,
+            "card_type": 1,
+            "payload": {
+                "order_id": "SNP-250303-41247-1955",
+                "data": {
+                    "source": "تهران، قلهک، دکتر علی شریعتی، کودکان غزه، پروین بعد از حسن میری، بیمارستان ایرانمهر",
+                    "destination": "تهران، سعادت آباد، بزرگراه آیت الله هاشمی رفسنجانی، ریاضی بخشایش، زند وکیلی شرقی تقاطع زند وکیلی غربی، بنیامین ترابر پارسیان",
+                    "request_id": "SNP-250303-41247-1955"
+                }
+            },
+            "reorder": true,
+            "reorder_text": "تکرارِ سفر"
+        },
+        {
+            "venture_title": "اسنپ",
+            "venture_icon": "https://jek.snapp.ir/ordercenter/assets/images/cards/Snapp.png",
+            "slug": "cab",
+            "track_url": "snapp://open/services/1?snapp_id=SNP-250302-41617-7078\u0026type=ride_history\u0026append_app_version=false\u0026append_back_gesture_enabled=false\u0026append_locale=false\u0026append_location=false\u0026append_os_version=false\u0026append_token_type=0\u0026append_top_bar_back_hidden=false\u0026append_top_bar_hidden=false\u0026append_top_bar_home_hidden=false\u0026append_app_version=false\u0026append_back_gesture_enabled=false\u0026append_locale=false\u0026append_location=false\u0026append_os_version=false\u0026append_token_type=0\u0026append_top_bar_back_hidden=false\u0026append_top_bar_hidden=false\u0026append_top_bar_home_hidden=false\u0026url=https://app.snapp.taxi/ride-detail/SNP-250302-41617-7078",
+            "track_id": "cab_tracking_SNP-250302-41617-7078",
+            "price": 1110000,
+            "status": 1,
+            "date": 1740894876,
+            "card_type": 1,
+            "payload": {
+                "order_id": "SNP-250302-41617-7078",
+                "data": {
+                    "source": "تهران، قلهک، دکتر علی شریعتی، کودکان غزه، پروین",
+                    "destination": "تهران، سعادت آباد، بزرگراه آیت الله هاشمی رفسنجانی، ریاضی بخشایش، زند وکیلی شرقی تقاطع زند وکیلی غربی، بنیامین ترابر پارسیان",
+                    "request_id": "SNP-250302-41617-7078"
+                }
+            },
+            "reorder": true,
+            "reorder_text": "تکرارِ سفر"
+        },
+        {
+            "venture_title": "رستوران",
+            "venture_icon": "https://jek.snapp.ir/ordercenter/assets/images/cards/Snappfood.png",
+            "slug": "food",
+            "track_url": "snapp://open/services/6?append_app_version=true\u0026append_back_gesture_enabled=true\u0026append_locale=true\u0026append_location=true\u0026append_os_version=true\u0026append_token_type=0\u0026append_top_bar_back_hidden=false\u0026append_top_bar_hidden=false\u0026append_top_bar_home_hidden=true\u0026append_app_version=true\u0026append_back_gesture_enabled=true\u0026append_locale=true\u0026append_location=true\u0026append_os_version=true\u0026append_token_type=0\u0026append_top_bar_back_hidden=false\u0026append_top_bar_hidden=false\u0026append_top_bar_home_hidden=true\u0026url=https://superapp.snappfood.ir/orderCenter/qw8dw77e?token=FD.hMd0Q3JN%3AXc3KTrksBsXSO9ERlWXl-nBr1PTWIX15NfxA3lmQZUYsfge9X9_ZIqUcc45_3s-w2c1v-aTcvmeB0g",
+            "track_id": "food_tracking_qw8dw77e",
+            "price": 7216000,
+            "status": 1,
+            "date": 1740678281,
+            "card_type": 2,
+            "payload": {
+                "order_id": "qw8dw77e",
+                "data": {
+                    "address": "بالاتر از بیمارستان ایرانمهر ؛کوچه میری ؛ بن بست پروین پلاک ۹ طبقه دو زنگ دو کوچه میری ؛ بن بست پروین پلاک 9 طبقه دو زنگ دو",
+                    "title": "باروژ (میرداماد)",
+                    "order_id": "qw8dw77e"
+                }
+            }
+        }
+    ],
+    "categories": [
+        {
+            "id": "all",
+            "title": "همه",
+            "landing_url": "snapp://open/services",
+            "no_data_image": "https://jek.snapp.ir/ordercenter/All%20filter%20-%20Cab%20-%20EmptyState.png"
+        },
+        {
+            "id": "cab",
+            "title": "اسنپ",
+            "landing_url": "snapp://open/services/1?url=https://app.snapp.taxi/?superapp_service=cab",
+            "active_icon": "https://jek.snapp.ir/ordercenter/assets/images/filters/Cab.png",
+            "inactive_icon": "https://jek.snapp.ir/ordercenter/assets/images/filters/Cab.png",
+            "no_data_image": "https://jek.snapp.ir/ordercenter/NoOrder/Illustrations_cab.png",
+            "card_types": [
+                1
+            ]
+        },
+        {
+            "id": "food",
+            "title": "غذا",
+            "landing_url": "snapp://open/services/6?url=https://superapp.snappfood.ir/?token=FD.hMd0Q3JN%3AXc3KTrksBsXSO9ERlWXl-nBr1PTWIX15NfxA3lmQZUYsfge9X9_ZIqUcc45_3s-w2c1v-aTcvmeB0g\u0026utm_source=order-center",
+            "active_icon": "https://jek.snapp.ir/ordercenter/assets/images/filters/Food.png",
+            "inactive_icon": "https://jek.snapp.ir/ordercenter/assets/images/filters/Food.png",
+            "no_data_image": "https://jek.snapp.ir/ordercenter/Type%3DOrder%20Center%20-%20No%20order%20in%20Food.png",
+            "card_types": [
+                2
+            ]
+        },
+        {
+            "id": "market",
+            "title": "هایپرمارکت",
+            "landing_url": "snapp://open/services/13?url=https://jek.snapp.market/?token=MK.BjKI7LzW%3AHS_bfAv4t3JXAyDPRQtMPDaQKU8pDU5PkkvWUfDyaYeP-vfFvvizB247L5vSxDPDiGwxPNMWct2zKA\u0026utm_source=order-center",
+            "active_icon": "https://jek.snapp.ir/ordercenter/assets/images/filters/Market.png",
+            "inactive_icon": "https://jek.snapp.ir/ordercenter/assets/images/filters/Market.png",
+            "no_data_image": "https://jek.snapp.ir/ordercenter/Type%3DOrder%20Center%20-%20No%20order%20in%20Market.png",
+            "card_types": [
+                2
+            ]
+        },
+        {
+            "id": "shop",
+            "title": "فروشگاه",
+            "landing_url": "snapp://open/services/17?url=https://snappshop.ir/?token=SP.Z25yO5s-%3AC3t2VP0qYb1m98gxV7AAqpHRwEt0oil0emzrB7Y4UcgokczM3psSbU14Jv3AU9R5C-nh0k6GIwE-4w\u0026utm_source=order-center",
+            "active_icon": "https://jek.snapp.ir/ordercenter/assets/images/filters/Shop.png",
+            "inactive_icon": "https://jek.snapp.ir/ordercenter/assets/images/filters/Shop.png",
+            "no_data_image": "https://jek.snapp.ir/ordercenter/Type%3DOrder%20Center%20-%20No%20order%20in%20Shop.png",
+            "card_types": [
+                2
+            ]
+        },
+        {
+            "id": "box",
+            "title": "اسنپ باکس",
+            "landing_url": "snapp://open/services/5?url=https://app.snapp-box.com?token=BX.QPktR7fP%3A8HJsDYNo88eKPeKSeILdF0jwoQ90V2N8XoTeLoe0QcRDnI-HhnJ65c9n6RGIUWUVbSRIoKqwkX0e_Q",
+            "active_icon": "https://jek.snapp.ir/ordercenter/assets/images/filters/Box.png",
+            "inactive_icon": "https://jek.snapp.ir/ordercenter/assets/images/filters/Box.png",
+            "no_data_image": "https://jek.snapp.ir/ordercenter/NoOrder/Illustrations_cab.png",
+            "card_types": [
+                1
+            ]
+        }
+    ]
+}

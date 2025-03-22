@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="fa" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>گزارش تحلیلی سفارشات اسنپ</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/vazirmatn@33.0.3/Vazirmatn-font-face.css">
+    <link rel="stylesheet" href="https://cdn.fontcdn.ir/Font/Persian/IRANSans/IRANSansWeb.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/rastikerdar/sahel-font@v3.4.0/dist/font-face.css">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>داشبورد تحلیلی سفارشات</h1>
+        </header>
+
+        <div class="snapp-login-section">
+            <h2>ورود به اکانت اسنپ</h2>
+            <p>برای تحلیل سفارشات، ابتدا وارد حساب کاربری اسنپ شوید:</p>
+            <div class="auth-buttons">
+                <a href="https://app.snapp.taxi/?superapp_service=orders" target="_blank" class="snapp-login-btn">ورود به اسنپ</a>
+                <button class="save-token-btn" onclick="saveToken()">ذخیره توکن</button>
+                <button class="manual-token-btn" onclick="manualTokenEntry()">ورود دستی توکن</button>
+            </div>
+            <p class="help-text">۱. روی دکمه «ورود به اسنپ» کلیک کنید و وارد حساب خود شوید.</p>
+            <p class="help-text">۲. بدون بستن صفحه اسنپ، به این صفحه برگردید.</p>
+            <p class="help-text">۳. روی دکمه «ذخیره توکن» کلیک کنید.</p>
+            <p class="auth-status">وضعیت: نیاز به ورود به اسنپ</p>
+            <p class="data-source">منبع داده: اطلاعات محلی (ذخیره شده)</p>
+        </div>
+
+        <div class="summary-cards">
+            <div class="card">
+                <div class="card-icon">💰</div>
+                <div class="card-content">
+                    <h3>مجموع هزینه</h3>
+                    <p class="total-spending">در حال بارگذاری...</p>
+                    <p class="total-spending-tomans">در حال بارگذاری...</p>
+                </div>
+            </div>
+            <div class="card">
+                <div class="card-icon">🛒</div>
+                <div class="card-content">
+                    <h3>تعداد سفارشات</h3>
+                    <p class="total-orders">در حال بارگذاری...</p>
+                </div>
+            </div>
+            <div class="card">
+                <div class="card-icon">📅</div>
+                <div class="card-content">
+                    <h3>بازه زمانی</h3>
+                    <p class="date-range">در حال بارگذاری...</p>
+                </div>
+            </div>
+            <div class="card">
+                <div class="card-icon">📊</div>
+                <div class="card-content">
+                    <h3>تعداد دسته‌بندی‌ها</h3>
+                    <p class="total-categories">در حال بارگذاری...</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="charts-container">
+            <div class="chart-card">
+                <h2>هزینه به تفکیک دسته‌بندی</h2>
+                <div class="chart-container">
+                    <canvas id="categoryChart"></canvas>
+                </div>
+            </div>
+            <div class="chart-card">
+                <h2>هزینه به تفکیک سرویس</h2>
+                <div class="chart-container">
+                    <canvas id="ventureChart"></canvas>
+                </div>
+            </div>
+        </div>
+
+        <div class="monthly-chart-card">
+            <h2>تحلیل ماهانه هزینه‌ها</h2>
+            <div class="chart-container">
+                <canvas id="monthlyChart"></canvas>
+            </div>
+        </div>
+
+        <div class="tables-container">
+            <div class="table-card">
+                <h2>جزئیات هزینه به تفکیک دسته‌بندی</h2>
+                <div class="table-container">
+                    <table id="categoryTable">
+                        <thead>
+                            <tr>
+                                <th>نام دسته‌بندی</th>
+                                <th>مبلغ (ریال)</th>
+                                <th>درصد</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td colspan="3" class="loading">در حال بارگذاری...</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+
+            <div class="table-card">
+                <h2>جزئیات هزینه به تفکیک سرویس</h2>
+                <div class="table-container">
+                    <table id="ventureTable">
+                        <thead>
+                            <tr>
+                                <th>نام سرویس</th>
+                                <th>مبلغ (ریال)</th>
+                                <th>درصد</th>
+                                <th>دسته‌بندی‌ها</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td colspan="4" class="loading">در حال بارگذاری...</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+
+        <div class="monthly-table-card">
+            <h2>تحلیل ماهانه هزینه‌ها</h2>
+            <div class="table-container">
+                <table id="monthlyTable">
+                    <thead>
+                        <tr>
+                            <th>ماه</th>
+                            <th>مبلغ (ریال)</th>
+                            <th>دسته‌بندی‌های اصلی</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td colspan="3" class="loading">در حال بارگذاری...</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+
+        <footer>
+            <p>تحلیل سفارشات اسنپ | طراحی و توسعه 1403</p>
+        </footer>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html> 
